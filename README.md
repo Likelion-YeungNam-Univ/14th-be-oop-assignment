@@ -36,7 +36,7 @@
    git checkout -b feature/{깃허브 이름}
 
    # 예시
-   git checkout -b feature/hky035
+   git checkout -b feature/eastminnn
    ```
    
 **3. 인텔리제이에서 해당 프로젝트 열기**
