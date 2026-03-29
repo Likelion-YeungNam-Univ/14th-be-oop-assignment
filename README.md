@@ -48,7 +48,7 @@
    git push origin feature/{깃허브 이름}
 
    # 예시
-   git push origin feature/hky035
+   git push origin feature/eastminnn
    ```
    
 **6. Pull Request 작성**
