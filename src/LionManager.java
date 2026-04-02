@@ -95,8 +95,10 @@ public class LionManager {
 
         int sumSincerity = lion.getSincerity() + amount;
         // 성실도는 항상 0~5의 범위를 벗어나지 않음.
-        if(sumSincerity > 5) sumSincerity = 5;
-        else if(sumSincerity < 0) sumSincerity = 0;
+        if(sumSincerity < 0 || sumSincerity > 5) {
+            System.out.println("성실도는 0~5의 값만 가능합니다.\n현재 성실도: " + lion.getSincerity());
+            return;
+        }
 
         lion.setSincerity(sumSincerity);
 
