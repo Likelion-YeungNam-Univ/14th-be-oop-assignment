@@ -75,7 +75,7 @@ public class Main {
                         System.out.println("점수의 범위는 0부터 5입니다.");
                         break;
                     }
-                    manager.increasePrize(studentId,prize);
+                    manager.decreasePrize(studentId,prize);
                     break;
                 case 7: // 삭제
                     System.out.print("삭제시킬 아기사자의 학번을 입력하시오: ");
